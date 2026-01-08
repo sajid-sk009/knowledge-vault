@@ -8,3 +8,57 @@ body {
   background: #fbfbfb;
   font-family: "Inter", sans-serif;
 }
+
+.bg-color-white {
+  background-color: white;
+}
+
+.header {
+  background-color: white;
+  padding: 16px 0;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  height: 50px;
+  object-fit: contain;
+}
+
+.menu-items {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.menu-item {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  color: #009035`;
+  text-decoration: underline;
+}
+
+.main-btn{
+  padding: 12px 20px;
+  background-color: #469165;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.main-btn:hover{
+  background-color: #009035;
+}
